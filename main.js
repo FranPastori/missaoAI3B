@@ -4,19 +4,36 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-let exemplo = "uma questão de pergunta";
-let exemplo2 = 23;
-let exemplo3 = false;
-let exemplo4 = true; 
 
-let exemploLista = [ "frase1","frase2","frase"];
+let perguntas = [
+    {
+        pergunta1: "texto da pergunta",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+    {
+        pergunta2: "texto da pergunta",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
 
-let exemploObjeto =  [
-    nome: "Kaique",
-    displina: [
-        "Alt",
-        "Alternativa 2"
-    ]
+     {
+        pergunta3: "texto da pergunta",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+     {
+        pergunta4: "texto da pergunta",
+        alternativas: [
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
 
-    "Pergunta 2"
 ];
