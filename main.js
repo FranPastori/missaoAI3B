@@ -7,14 +7,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 let perguntas = [
     {
-        pergunta1: "texto da pergunta",
+        enunciado: "Esse é o texto que adicionamos por javasript",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
         ]
     },
     {
-        pergunta2: "texto da pergunta",
+        enunciado: "texto da pergunta",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
@@ -22,14 +22,14 @@ let perguntas = [
     },
 
      {
-        pergunta3: "texto da pergunta",
+        enunciado: "texto da pergunta",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
         ]
     },
      {
-        pergunta4: "texto da pergunta",
+        enunciado: "texto da pergunta",
         alternativas: [
             "Alternativa 1",
             "Alternativa 2"
@@ -37,3 +37,18 @@ let perguntas = [
     },
 
 ];
+
+
+let atual = 0; 
+let perguntaAtual;
+
+function mostraPergunta(){
+
+    perguntaAtual = perguntas[atual];
+
+    caixaPergunta.textContent = perguntas.enunciado;
+
+
+
+
+}
